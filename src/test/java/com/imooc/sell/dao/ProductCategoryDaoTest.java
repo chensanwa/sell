@@ -1,12 +1,16 @@
 package com.imooc.sell.dao;
 
 import com.imooc.sell.entity.ProductCategory;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA
@@ -28,6 +32,13 @@ public class ProductCategoryDaoTest {
         System.out.println("---------------------------------");
         System.out.println(productCategory);
         System.out.println("---------------------------------");
+    }
+
+    @Test
+    public void findByCategoryTypeInTest(){
+        List<Integer> list = Arrays.asList(1,2);
+        List<ProductCategory> result = productCategoryDao.findByCategoryTypeIn(list);
+        Assert.assertNotEquals(0,result.size());
     }
 
 

@@ -1,7 +1,6 @@
-package com.imooc.sell.dao;
+package com.imooc.sell.service;
 
 import com.imooc.sell.entity.ProductCategory;
-import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
@@ -9,10 +8,16 @@ import java.util.List;
  * Created with IntelliJ IDEA
  * Created By Mr.Chen
  * Date: 2018/6/20
- * Time: 11:46
+ * Time: 16:24
  */
-public interface ProductCategoryDao extends JpaRepository<ProductCategory, Integer> {
+public interface CategoryService {
+
+    ProductCategory findOne(Integer categoryId);
+
+    List<ProductCategory> findAll();
 
     List<ProductCategory> findByCategoryTypeIn(List<Integer> categoryTypeList);
+
+    ProductCategory save(ProductCategory productCategory);
 
 }

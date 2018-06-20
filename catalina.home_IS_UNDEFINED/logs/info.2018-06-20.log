@@ -341,3 +341,848 @@ Closing org.springframework.web.context.support.GenericWebApplicationContext@5f2
 Closing JPA EntityManagerFactory for persistence unit 'default'
 HikariPool-1 - Shutdown initiated...
 HikariPool-1 - Shutdown completed.
+Starting ProductCategoryDaoTest on DESKTOP-504IAFE with PID 5160 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 16:23:11 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d916b548] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 16:23:11 CST 2018]; root of context hierarchy
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 16:23:11 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductCategoryDaoTest in 8.896 seconds (JVM running for 11.314)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 16:23:11 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 6924 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 16:55:59 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2920aae0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 16:55:59 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 16:55:59 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 9.791 seconds (JVM running for 12.044)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 16:55:59 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 8948 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74f6c5d8: startup date [Wed Jun 20 16:59:47 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d0febfe8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@74f6c5d8: startup date [Wed Jun 20 16:59:47 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@74f6c5d8: startup date [Wed Jun 20 16:59:47 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 9.24 seconds (JVM running for 11.178)
+HHH000397: Using ASTQueryTranslatorFactory
+SQL Error: 1146, SQLState: 42S02
+Closing org.springframework.web.context.support.GenericWebApplicationContext@74f6c5d8: startup date [Wed Jun 20 16:59:47 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 17176 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 17:00:38 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92c7d6c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 17:00:38 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 17:00:38 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 7.082 seconds (JVM running for 9.551)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@15a04efb: startup date [Wed Jun 20 17:00:38 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 17012 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7ba8c737: startup date [Wed Jun 20 17:01:32 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$220dd240] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7ba8c737: startup date [Wed Jun 20 17:01:32 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@7ba8c737: startup date [Wed Jun 20 17:01:32 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 12.753 seconds (JVM running for 15.48)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7ba8c737: startup date [Wed Jun 20 17:01:32 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 8764 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:47:29 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63e9a49f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:47:29 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:47:29 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 12.297 seconds (JVM running for 16.789)
+SQL Error: 1146, SQLState: 42S02
+Closing org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:47:29 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting CategoryServiceImplTest on DESKTOP-504IAFE with PID 17792 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:52:26 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a72ac2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:52:26 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:52:26 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started CategoryServiceImplTest in 8.875 seconds (JVM running for 10.899)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@cd1e646: startup date [Wed Jun 20 18:52:26 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductInfoDaoTest on DESKTOP-504IAFE with PID 13768 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:10:48 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$610a9cf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:10:48 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:10:48 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductInfoDaoTest in 8.352 seconds (JVM running for 10.469)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:10:48 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductInfoDaoTest on DESKTOP-504IAFE with PID 18136 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:12:39 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$610a9cf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:12:39 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:12:39 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductInfoDaoTest in 8.977 seconds (JVM running for 11.102)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@5f20155b: startup date [Wed Jun 20 19:12:39 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductServiceImplTest on DESKTOP-504IAFE with PID 10604 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:31:02 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2349e273] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:31:02 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:31:02 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductServiceImplTest in 10.697 seconds (JVM running for 13.385)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:31:02 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductServiceImplTest on DESKTOP-504IAFE with PID 4032 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2663e964: startup date [Wed Jun 20 19:31:21 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb8ee7e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@2663e964: startup date [Wed Jun 20 19:31:21 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@2663e964: startup date [Wed Jun 20 19:31:21 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductServiceImplTest in 8.08 seconds (JVM running for 10.663)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@2663e964: startup date [Wed Jun 20 19:31:21 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductServiceImplTest on DESKTOP-504IAFE with PID 5312 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f3187b0: startup date [Wed Jun 20 19:32:33 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2caeb1a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6f3187b0: startup date [Wed Jun 20 19:32:33 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6f3187b0: startup date [Wed Jun 20 19:32:33 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductServiceImplTest in 8.356 seconds (JVM running for 10.33)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6f3187b0: startup date [Wed Jun 20 19:32:33 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting ProductServiceImplTest on DESKTOP-504IAFE with PID 8216 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:34:29 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2349e273] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:34:29 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:34:29 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started ProductServiceImplTest in 7.927 seconds (JVM running for 10.664)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6dd7b5a3: startup date [Wed Jun 20 19:34:29 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting SellApplication on DESKTOP-504IAFE with PID 992 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@327514f: startup date [Wed Jun 20 19:39:43 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a2b9f29] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;E:\app\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;H:\java\jdk\bin;H:\java\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn;H:\OpenCV\opencv3.0\opencv\build\x86\vc12\bin;H:\VS2010\VC\bin;H:\;H:\Git\cmd;H:\java\jdk\bin;H:\Matlab\runtime\win64;H:\Matlab\bin;H:\Matlab\polyspace\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;H:\mysql\mysql-5.7.20-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;H:\hexo\chensanwa.github.io\node_modules\hexo\bin\;H:\android\android-sdk-windows\tools;H:\android\android-sdk-windows\platform-tools;H:\maven\apache-maven-3.5.2\bin;H:\svn\bin;H:\tortoiseSVN\bin;;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\;C:\Users\红菱\AppData\Local\Microsoft\WindowsApps;;H:\Microsoft VS Code\bin;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2632 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@327514f: startup date [Wed Jun 20 19:39:43 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@327514f: startup date [Wed Jun 20 19:39:43 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 6.436 seconds (JVM running for 7.893)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+Starting SellApplication on DESKTOP-504IAFE with PID 13080 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:42:20 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2eaf020c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;E:\app\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;H:\java\jdk\bin;H:\java\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn;H:\OpenCV\opencv3.0\opencv\build\x86\vc12\bin;H:\VS2010\VC\bin;H:\;H:\Git\cmd;H:\java\jdk\bin;H:\Matlab\runtime\win64;H:\Matlab\bin;H:\Matlab\polyspace\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;H:\mysql\mysql-5.7.20-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;H:\hexo\chensanwa.github.io\node_modules\hexo\bin\;H:\android\android-sdk-windows\tools;H:\android\android-sdk-windows\platform-tools;H:\maven\apache-maven-3.5.2\bin;H:\svn\bin;H:\tortoiseSVN\bin;;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\;C:\Users\红菱\AppData\Local\Microsoft\WindowsApps;;H:\Microsoft VS Code\bin;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1856 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:42:20 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:42:20 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 5.346 seconds (JVM running for 6.361)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+Starting SellApplication on DESKTOP-504IAFE with PID 13124 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:49:48 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a631185e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;E:\app\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;H:\java\jdk\bin;H:\java\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn;H:\OpenCV\opencv3.0\opencv\build\x86\vc12\bin;H:\VS2010\VC\bin;H:\;H:\Git\cmd;H:\java\jdk\bin;H:\Matlab\runtime\win64;H:\Matlab\bin;H:\Matlab\polyspace\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;H:\mysql\mysql-5.7.20-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;H:\hexo\chensanwa.github.io\node_modules\hexo\bin\;H:\android\android-sdk-windows\tools;H:\android\android-sdk-windows\platform-tools;H:\maven\apache-maven-3.5.2\bin;H:\svn\bin;H:\tortoiseSVN\bin;;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\;C:\Users\红菱\AppData\Local\Microsoft\WindowsApps;;H:\Microsoft VS Code\bin;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1842 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:49:48 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c12331b: startup date [Wed Jun 20 19:49:48 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 5.027 seconds (JVM running for 6.106)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+Starting SellApplication on DESKTOP-504IAFE with PID 3696 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b12b668: startup date [Wed Jun 20 20:01:26 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$196ac0d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet Engine: Apache Tomcat/8.5.31
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [H:\java\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;E:\app\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;H:\java\jdk\bin;H:\java\jdk\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn;H:\OpenCV\opencv3.0\opencv\build\x86\vc12\bin;H:\VS2010\VC\bin;H:\;H:\Git\cmd;H:\java\jdk\bin;H:\Matlab\runtime\win64;H:\Matlab\bin;H:\Matlab\polyspace\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;H:\mysql\mysql-5.7.20-winx64\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;H:\hexo\chensanwa.github.io\node_modules\hexo\bin\;H:\android\android-sdk-windows\tools;H:\android\android-sdk-windows\platform-tools;H:\maven\apache-maven-3.5.2\bin;H:\svn\bin;H:\tortoiseSVN\bin;;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\红菱\AppData\Local\Programs\Python\Python36-32\;C:\Users\红菱\AppData\Local\Microsoft\WindowsApps;;H:\Microsoft VS Code\bin;.]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2104 ms
+Servlet dispatcherServlet mapped to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b12b668: startup date [Wed Jun 20 20:01:26 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5b12b668: startup date [Wed Jun 20 20:01:26 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Bean with name 'dataSource' has been autodetected for JMX exposure
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started SellApplication in 6.448 seconds (JVM running for 7.756)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting OrderMasterDaoTest on DESKTOP-504IAFE with PID 17212 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:31:25 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b095dd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:31:25 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:31:25 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterDaoTest in 9.403 seconds (JVM running for 12.017)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:31:25 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderMasterDaoTest on DESKTOP-504IAFE with PID 13448 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:18 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e33ebcd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:18 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:18 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterDaoTest in 8.603 seconds (JVM running for 10.728)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:18 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderMasterDaoTest on DESKTOP-504IAFE with PID 7152 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:59 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e33ebcd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:59 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:59 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterDaoTest in 8.987 seconds (JVM running for 11.454)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:33:59 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderMasterDaoTest on DESKTOP-504IAFE with PID 16776 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:34:42 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$103ab65f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:34:42 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:34:42 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterDaoTest in 8.188 seconds (JVM running for 10.262)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:34:42 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderDetailDaoTest on DESKTOP-504IAFE with PID 16664 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:46:34 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6d4748d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:46:34 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:46:34 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailDaoTest in 9.323 seconds (JVM running for 11.455)
+SQL Error: 1452, SQLState: 23000
+Closing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:46:34 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderDetailDaoTest on DESKTOP-504IAFE with PID 13548 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:47:44 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9428c1f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:47:44 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:47:44 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailDaoTest in 9.027 seconds (JVM running for 11.266)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7d94beb9: startup date [Wed Jun 20 20:47:44 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderDetailDaoTest on DESKTOP-504IAFE with PID 1660 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:48:02 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6d4748d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:48:02 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:48:02 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailDaoTest in 8.353 seconds (JVM running for 10.858)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@609bcfb6: startup date [Wed Jun 20 20:48:02 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
+Starting OrderDetailDaoTest on DESKTOP-504IAFE with PID 7992 (started by 红菱 in F:\Javaweb\resources\spring boot企业微信点餐系统\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:48:26 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$471aacab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.2.17.Final}
+HHH000206: hibernate.properties not found
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:48:26 CST 2018]; root of context hierarchy
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.sell.vo.ResultVO com.imooc.sell.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:48:26 CST 2018]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailDaoTest in 7.759 seconds (JVM running for 9.569)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1df8b5b8: startup date [Wed Jun 20 20:48:26 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+HikariPool-1 - Shutdown initiated...
+HikariPool-1 - Shutdown completed.
